@@ -7,7 +7,7 @@ Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
 
 ## Introduction
 
-This is an example [Stripes](https://github.com/folio-org/stripes-core/) UI module. 
+This is an example [Stripes](https://github.com/folio-org/stripes-core/) UI module.
 
 ## Additional information
 
