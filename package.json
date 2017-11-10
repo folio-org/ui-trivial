@@ -1,6 +1,6 @@
 {
   "name": "@folio/trivial",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A trivial Stripes module.",
   "repository": "folio-org/ui-trivial",
   "publishConfig": {
