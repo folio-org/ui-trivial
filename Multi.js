@@ -11,14 +11,15 @@ class Multi extends React.Component {
 
   constructor(props) {
     super(props);
-    this.connectedAbout = props.stripes.connect(About);
+    this.connectedAbout1 = props.stripes.connect(About, { dataKey: "1" });
+    this.connectedAbout2 = props.stripes.connect(About, { dataKey: "2" });
   }
 
   render() {
     return (
       <div>
-        <this.connectedAbout stripes={this.props.stripes} dataKey="1" />
-        <this.connectedAbout stripes={this.props.stripes} dataKey="2" />
+        <this.connectedAbout1 stripes={this.props.stripes} />
+        <this.connectedAbout2 stripes={this.props.stripes} />
       </div>
     );
   }

@@ -4,7 +4,7 @@ import css from './trivial.css';
 
 class About extends React.Component {
   static propTypes = {
-    dataKey: PropTypes.string.isRequired,
+    dataKey: PropTypes.string,
     resources: PropTypes.shape({
       greetingParams: PropTypes.shape({
         greeting: PropTypes.string,
