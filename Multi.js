@@ -11,8 +11,8 @@ class Multi extends React.Component {
 
   constructor(props) {
     super(props);
-    this.connectedAbout1 = props.stripes.connect(About, { dataKey: "1" });
-    this.connectedAbout2 = props.stripes.connect(About, { dataKey: "2" });
+    this.connectedAbout1 = props.stripes.connect(About, { dataKey: '1' });
+    this.connectedAbout2 = props.stripes.connect(About, { dataKey: '2' });
   }
 
   render() {

@@ -21,8 +21,7 @@ class About extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const dk = this.props.dataKey || '';
-    this.props.mutator.greetingParams.replace({
-      greeting: document.getElementById(`g${dk}`).value,
+    this.props.mutator.greetingParams.replace({ greeting: document.getElementById(`g${dk}`).value,
       name: document.getElementById(`n${dk}`).value });
   };
 
