@@ -8,7 +8,7 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "lint": "eslint *.js || true"
+    "lint": "eslint ."
   },
   "engines": {
     "node": ">=6.0.0"
