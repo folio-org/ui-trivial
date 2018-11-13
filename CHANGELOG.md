@@ -1,5 +1,10 @@
 # Change history for ui-trivial
 
+## [1.3.0](https://github.com/folio-org/ui-trivial/tree/v1.3.0) (2018-11-13)
+[Full Changelog](https://github.com/folio-org/ui-trivial/compare/v1.2.0...v1.3.0)
+
+* Move React to a peer dependency, provided by the platform that includes this app.
+
 ## [1.2.0](https://github.com/folio-org/ui-trivial/tree/v1.2.0) (2017-11-10)
 [Full Changelog](https://github.com/folio-org/ui-trivial/compare/v1.1.0...v1.2.0)
 
